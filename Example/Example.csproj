@@ -98,9 +98,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\McText\MinecraftFormatting.csproj">
+    <ProjectReference Include="..\McText\McTextBlock.csproj">
       <Project>{6009282a-b8b0-4464-8417-3d06cecd7c09}</Project>
-      <Name>MinecraftFormatting</Name>
+      <Name>McTextBlock</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

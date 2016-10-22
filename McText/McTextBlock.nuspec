@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>Craften.Utilities.McTextBlock</id>
-    <version>1.0.0</version>
+    <version>$version$</version>
     <title>Craften.Utilities.McTextBlock</title>
     <authors>Maik Marschner</authors>
     <owners>leMaik</owners>
+    <description>A WPF component for rendering Minecraft formatted text.</description>
     <licenseUrl>https://github.com/TeamWertarbyte/McTextBlock/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/TeamWertarbyte/McTextBlock</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A WPF component for rendering Minecraft formatted text.</description>
     <releaseNotes>Initial release.</releaseNotes>
     <copyright>Copyright 2013-2016 Wertarbyte</copyright>
     <tags>minecraft text renderer wpf</tags>

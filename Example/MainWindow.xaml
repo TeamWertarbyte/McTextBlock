@@ -6,7 +6,7 @@
         Height="350"
         Width="525">
     <StackPanel Orientation="Vertical">
-        <mcf:MinecraftTextBlock Text="§K123§r §o§4Th§ce C§6ra§eft§aen§2 Se§3rv§1er §r§k123"
+        <mcf:McTextBlock Text="§K123§r §o§4Th§ce C§6ra§eft§aen§2 Se§3rv§1er §r§k123"
                                 FontSize="72"
                                 FontFamily="Lucida Console"
                                 VerticalAlignment="Center"

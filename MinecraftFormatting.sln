@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftFormatting", "McText\MinecraftFormatting.csproj", "{6009282A-B8B0-4464-8417-3D06CECD7C09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McTextBlock", "McText\McTextBlock.csproj", "{6009282A-B8B0-4464-8417-3D06CECD7C09}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{166BEEB6-3734-4F02-B3BC-C257D140FC43}"
 	ProjectSection(ProjectDependencies) = postProject

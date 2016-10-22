@@ -8,7 +8,7 @@ using System.Windows.Media;
 using System.Windows.Threading;
 
 namespace Craften.Utilities.McTextBlock {
-    public class MinecraftTextBlock : FrameworkElement {
+    public class McTextBlock : FrameworkElement {
         private const string RANDOM_CHARS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         private const string OBFUSCATION_STOPPERS = "0123456789abcdefrABCDEFR";
         private static readonly Random Random = new Random();
@@ -38,7 +38,7 @@ namespace Craften.Utilities.McTextBlock {
         }
 
         public static readonly DependencyProperty TextProperty =
-            DependencyProperty.Register("Text", typeof(string), typeof(MinecraftTextBlock), new FrameworkPropertyMetadata(String.Empty, FrameworkPropertyMetadataOptions.AffectsArrange, OnTextChanged));
+            DependencyProperty.Register("Text", typeof(string), typeof(McTextBlock), new FrameworkPropertyMetadata(String.Empty, FrameworkPropertyMetadataOptions.AffectsArrange, OnTextChanged));
 
         public FontFamily FontFamily {
             get { return (FontFamily)GetValue(FontFamilyProperty); }
@@ -46,7 +46,7 @@ namespace Craften.Utilities.McTextBlock {
         }
 
         public static readonly DependencyProperty FontFamilyProperty =
-            DependencyProperty.Register("FontFamily", typeof(FontFamily), typeof(MinecraftTextBlock), new FrameworkPropertyMetadata(SystemFonts.MessageFontFamily, FrameworkPropertyMetadataOptions.AffectsMeasure, OnTextChanged));
+            DependencyProperty.Register("FontFamily", typeof(FontFamily), typeof(McTextBlock), new FrameworkPropertyMetadata(SystemFonts.MessageFontFamily, FrameworkPropertyMetadataOptions.AffectsMeasure, OnTextChanged));
 
         public double FontSize {
             get { return (double)GetValue(FontSizeProperty); }
@@ -54,7 +54,7 @@ namespace Craften.Utilities.McTextBlock {
         }
 
         public static readonly DependencyProperty FontSizeProperty =
-            DependencyProperty.Register("FontSize", typeof(double), typeof(MinecraftTextBlock), new FrameworkPropertyMetadata(12d, FrameworkPropertyMetadataOptions.AffectsMeasure, OnTextChanged));
+            DependencyProperty.Register("FontSize", typeof(double), typeof(McTextBlock), new FrameworkPropertyMetadata(12d, FrameworkPropertyMetadataOptions.AffectsMeasure, OnTextChanged));
 
         public Color Foreground {
             get { return (Color)GetValue(ForegroundProperty); }
@@ -62,7 +62,7 @@ namespace Craften.Utilities.McTextBlock {
         }
 
         public static readonly DependencyProperty ForegroundProperty =
-            DependencyProperty.Register("Foreground", typeof(Color), typeof(MinecraftTextBlock), new FrameworkPropertyMetadata(SystemColors.InfoTextColor, FrameworkPropertyMetadataOptions.AffectsRender, OnTextChanged));
+            DependencyProperty.Register("Foreground", typeof(Color), typeof(McTextBlock), new FrameworkPropertyMetadata(SystemColors.InfoTextColor, FrameworkPropertyMetadataOptions.AffectsRender, OnTextChanged));
 
         public TextAlignment TextAlignment {
             get { return (TextAlignment)GetValue(TextAlignmentProperty); }
@@ -70,9 +70,9 @@ namespace Craften.Utilities.McTextBlock {
         }
 
         public static readonly DependencyProperty TextAlignmentProperty =
-            DependencyProperty.Register("TextAlignment", typeof(TextAlignment), typeof(MinecraftTextBlock), new FrameworkPropertyMetadata(TextAlignment.Left, FrameworkPropertyMetadataOptions.AffectsMeasure, OnTextChanged));
+            DependencyProperty.Register("TextAlignment", typeof(TextAlignment), typeof(McTextBlock), new FrameworkPropertyMetadata(TextAlignment.Left, FrameworkPropertyMetadataOptions.AffectsMeasure, OnTextChanged));
 
-        public MinecraftTextBlock() {
+        public McTextBlock() {
             _timer = new DispatcherTimer(TimeSpan.FromSeconds(1 / 30d), DispatcherPriority.Render, (e, s) => {
                 _formattedText = null;
                 InvalidateMeasure();
@@ -81,7 +81,7 @@ namespace Craften.Utilities.McTextBlock {
         }
 
         private static void OnTextChanged(DependencyObject d, DependencyPropertyChangedEventArgs e) {
-            var mcText = d as MinecraftTextBlock;
+            var mcText = d as McTextBlock;
             if (mcText == null) return;
 
             mcText._formattedText = null;
