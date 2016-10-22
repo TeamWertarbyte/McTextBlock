@@ -7,12 +7,12 @@ using System.Windows;
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("Craften.Utilities.MinecraftFormatting")]
+[assembly: AssemblyTitle("Craften.Utilities.McTextBlock")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Wertarbyte GbR")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("Copyright 2014 Craften.de")]
+[assembly: AssemblyCopyright("Copyright 2013-2016 Wertarbyte")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

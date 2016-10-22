@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Example {
+namespace Craften.Utilities.McTextBlock.Example {
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml
     /// </summary>

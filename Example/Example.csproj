@@ -7,7 +7,7 @@
     <ProjectGuid>{166BEEB6-3734-4F02-B3BC-C257D140FC43}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Example</RootNamespace>
+    <RootNamespace>Craften.Utilities.McTextBlock.Example</RootNamespace>
     <AssemblyName>Example</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -34,7 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Example.App</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -1,7 +1,7 @@
-﻿<Window x:Class="Example.MainWindow"
+﻿<Window x:Class="Craften.Utilities.McTextBlock.Example.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:mcf="clr-namespace:Craften.Utilities.MinecraftFormatting;assembly=Craften.Utilities.MinecraftFormatting"
+        xmlns:mcf="clr-namespace:Craften.Utilities.McTextBlock;assembly=Craften.Utilities.McTextBlock"
         Title="Example"
         Height="350"
         Width="525">

@@ -1,7 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using System.Windows.Media;
 
-namespace Craften.Utilities.MinecraftFormatting {
+namespace Craften.Utilities.McTextBlock {
     public static class Formatting {
         public static readonly Regex MinecraftFormattings = new Regex("§([0-9a-frlomnk])", RegexOptions.Compiled | RegexOptions.IgnoreCase);
     }

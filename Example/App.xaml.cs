@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Example {
+namespace Craften.Utilities.McTextBlock.Example {
     /// <summary>
     /// Interaktionslogik für "App.xaml"
     /// </summary>

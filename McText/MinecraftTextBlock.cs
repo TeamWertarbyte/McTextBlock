@@ -3,12 +3,11 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Threading;
 
-namespace Craften.Utilities.MinecraftFormatting {
+namespace Craften.Utilities.McTextBlock {
     public class MinecraftTextBlock : FrameworkElement {
         private const string RANDOM_CHARS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         private const string OBFUSCATION_STOPPERS = "0123456789abcdefrABCDEFR";
